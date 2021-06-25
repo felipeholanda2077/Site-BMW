@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shorycut icon" href="https://i.pinimg.com/originals/66/1e/7a/661e7a5e9fff403c76650960be6683e6.png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Home | BMW.com.br</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">BMW BRASIL</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.bmw.com.br/pt/all-models.html" class="nav__link">Modelos e Preços</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.bmw.com.br/pt/topics/fascination-bmw/visionary-mobility/eletricos-e-hibridos.html" class="nav__link">Descubra</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.bmw.com.br/pt/topics/offers-and-services1/recall.html" class="nav__link">Recall</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="background.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">THE M4 Competition</span>
+                        <h1 class="home__data-title">Puro <br> <b>Prazer</b> De <br> Dirigir</h1>
+                        <a href="#" class="button">Descubra</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/BMWBrasil/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bmwdobrasil/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/bmwbrasil" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">My Bmw App <br></h2>
+                        <p class="about__description">Your World. My BMW. <br> Descubra as vantagens do novo aplicativo My BMW.
+                        </p>
+                        <a href="#" class="button">Saiba mais</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="MyBMW_Module_Mobile.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="vehicle-status-mobile.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">BMW do Brasil recomenda <br> BESTSELLER</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="2022-bmw-i4-removebg-preview.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                            <div class="Texto_BMW"><br><h2>BMW I4</h2><br>O PRIMEIRO GRAN COUPÉ TOTALMENTE ELÉTRICO</div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="cosySec1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                            <div class="Texto_BMW"><br><h2>BMW M3 Competition</h2><br>O ÍCONE DA BMW M</div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="cosySec2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                            <div class="Texto_BMW"><br><h2>BMW 530e M Sport</h2><br>O ÁPICE DA TECNOLOGIA, DESEMPENHO E CONECTIVIDADE</div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="cosySec.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                            <div class="Texto_BMW"><br><h2>BMW X3</h2><br>ELETRIFIQUE SUAS AVENTURAS</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">BMW SERVIÇOS <br></h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">BMW SERVIÇOS</h2>
+                            <span class="experience__description">Equipe altamente qualificada, peças e produtos originais BMW e atendimento Premium. O cuidado é nosso. O Puro Prazer de Dirigir é seu. <br></span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">SIMULADOR SING & GO</h2>
+                            <span class="experience__description">A conquista do seu BMW 0km está mais próxima do que você imagina. <br></span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">VENDAS ESPECIAIS</h2>
+                            <span class="experience__description">Condiçoes exclusivas para você e sua empresa<br></span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="bmw-servicos3.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title"> O FUTURO É AGORA</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">iX e i4 <br>O futuro não é ontem nem hoje nem amanhã o futuro é BMW NOW.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="Next Brasil - Episódio 5 - iX e i4_ O Futuro Chegou.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Conquiste seu BMW e curta o Puro Prazer de Dirigir!</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">BMW</h3>
+                                <span class="place__subtitle">7SERIES</span>
+                                <span class="place__price">R$ 656.950</span>
+                            </div>
+                        </div>
+
+                        <button class="">
+                            <i class=""></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="BMW-i-series-i3-range-ts-01.jpg" alt="" class="place__img">
+                    
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">BMW</h3>
+                                <span class="place__subtitle">I3</span>
+                                <span class="place__price">R$ 304.950</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">BMW</h3>
+                                <span class="place__subtitle">I3</span>
+                                <span class="place__price">R$ 304.950</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">BMW</h3>
+                                <span class="place__subtitle">X5</span>
+                                <span class="place__price">R$ 557.950</span>
+                            </div>
+                        </div>
+
+                        <button class="">
+                            <i class=""></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="BMW-7series.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">BMW</h3>
+                                <span class="place__subtitle">7SERIES</span>
+                                <span class="place__price">R$ 656.950</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <img src="IBAMA_LOGO.png">
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Solicite uma proposta<br></h2>
+                        <p class="subscribe__description">Solicite sua proposta com um de nossos atendentes mais especializados na área.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="E-mail" class="subscribe__input">
+    
+                            <button class="button">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="#" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="MINI_logo.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="BMW-Logo.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="Rolls-Royce-Logo.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="#" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Contato</h3>
+                        <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Fale com a BMW</a>
+                        <li class="footer__item">
+                                <a href="" class="footer__link">Carreiras</a>
+                        </li>
+                        </li>
+                        </ul>
+                        <div>
+                            <a href="https://www.facebook.com/BMWBrasil/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/bmwbrasil" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bmwdobrasil/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/user/BMWTVBrasil" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Meu BMW</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Solicitar uma proposta</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Modelos e Preços</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Infomações Legais</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Política de Cookies</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Política de Privacidade</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Recall</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Manual de Segurança</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+<br>
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; BMW GROUP Brasil 2021</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Política de Cookies</a>
+                        <a href="#" class="footer__terms-link">Política de Privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+</html>
