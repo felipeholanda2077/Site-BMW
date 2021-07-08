@@ -654,6 +654,11 @@ input {
 }
 
 /*=============== SUBSCRIBE ===============*/
+.Ibama {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+}
 .subscribe section {
     background-color: #000000;
 }
