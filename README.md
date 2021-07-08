@@ -22,7 +22,7 @@
 #### Imagem
 
 <h1 aling="center">
-   <img alt="Readme" title="Readme" src="PaginaREADME.png" />
+   <img alt="Readme" title="Readme" src="imagens/BMW-SITE.png" />
 </h1>
 
   ### Tecnologias 🚀
