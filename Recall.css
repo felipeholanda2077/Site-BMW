@@ -240,16 +240,17 @@ input {
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
+  color: #000;
 }
 
 .nav__link {
-  color: var(--text-color-light);
+  color: #000;
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: #000;
 }
 
 .nav__close {
