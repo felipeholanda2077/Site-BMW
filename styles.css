@@ -783,7 +783,7 @@ input {
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  background-color: var(--first-color);
+  background-color: #0066B1;
   padding: .5rem;
   display: flex;
   opacity: .9;
@@ -792,7 +792,7 @@ input {
 }
 
 .scrollup:hover {
-  background-color: var(--first-color-alt);
+  background-color: #004a80;
   opacity: 1;
 }
 
