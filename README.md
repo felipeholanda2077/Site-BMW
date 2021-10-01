@@ -32,7 +32,7 @@
   - [x] **HTML**
   - [x] **CSS**
   - [x] **JS**
-  - [] **SCSS**
+  - [x] **SCSS**
 
   #### Ferramentas
 
