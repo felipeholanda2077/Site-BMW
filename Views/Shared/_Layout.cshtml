@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bmw_MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <style type="text/css" media="screen">
+     body
+     {
+      background-image: url('../Imagens/background.jpg');
+     }
+     </style>
+        <div class="logo">
+            <a href="@Url.Action("Index", "Home")">
+                <h1 class="display-2"></h1>
+            </a>
+        </div>
+            
+            <ul>
+                <li><a href="@Url.Action("Index", "Home")"><h4>Home</h4></a></li>
+                <li><a href="@Url.Action("Formulario","Home")"><h4>Formulario</h4></a></li>
+            </ul>
+        </nav>
+        <div></div>
+    </header>
+
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+
+    <footer>
+        <nav>
+        <p> BMW &copy; Todos os direitos reservados.</p>
+        </nav>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

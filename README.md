@@ -4,24 +4,23 @@
    </a>
 </p>
 
-# Sobre o Projeto 👨🏻‍💻
+<h1 align="center">Sobre o Projeto 👨🏻‍💻</h1>
 
-<h4>Site da Bmw em estagio de testes para ser um Framework para mim na criação de outros sites</h4>
+<h4 align="center">Site da Bmw em estagio de testes para ser um Framework para mim na criação de outros sites</h4>
 
 <br>
 
-<p aling="center">Esse projeto...</p>
+<p align="center">ÍNDICE<br>
 <a href="#Sobre o Projeto">Sobre</a> •
 <a href="#Imagem">Imagem</a> •
 <a href="#Tecnologias">Tecnologias</a> •
-<a href="#Ferramentas">Ferramentas</a>
+<a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
-<br>
 
-#### Imagem
+<h2 align="center">Imagem</h2>
 
-<h1 aling="center">
+<h1 align="center">
    <img alt="Readme" title="Readme" src="BMW-SITE.png" />
 </h1>
 
@@ -41,4 +40,5 @@
 
 <br>
 
-  Made with 💜 by FELIPE HOLANDA 👋🏻 [See my Linkedin](https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/)
+  <p align="center">Made with 💜 by FELIPE HOLANDA 👋🏻 <br>[See my Linkedin](https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/)</p>
+  
