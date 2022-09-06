@@ -4,6 +4,10 @@
    </a>
 </p>
 
+<h1 align="center">Como Utilizar o Projeto</h1>
+
+<p>Para utilizar o projeto será igualmente funcional a utilizar um projeto HTML junto com CSS inicialize o projeto no arquivo index.html
+
 <h1 align="center">Sobre o Projeto 👨🏻‍💻</h1>
 
 <h4 align="center">Site da Bmw em estagio de testes para ser um Framework para mim na criação de outros sites</h4>
